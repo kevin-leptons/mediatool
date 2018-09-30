@@ -1,0 +1,33 @@
+mediatool
+*********
+
+Installation
+============
+
+Install packages by hands.
+
+* Node.js v10.x [1]
+* ffmpeg, latest as possible [2]
+
+Install mediatool via NPM.
+
+    $ npm i -g mediatool
+
+Usage
+=====
+
+Convert video to mp3.
+
+    $ mediatool mp3 src dest [--override]
+
+Where.
+
+* src - Path to directory which contains video files.
+* dest - Path to directory which stores output mp3 files.
+* --override - Write to existed output files.
+
+Links
+=====
+
+[1] https://nodejs.org/en/
+[2] https://www.ffmpeg.org/
